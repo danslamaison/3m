@@ -13,14 +13,13 @@ body {
 }
 
 #welcome_subtext {
+	border: hidden;
 	font-size: 19px;
-	text-indent: 10px;
+	position: relative;
+	left: 10px;
 }
 
-p {
-	font-size: 19px;
-	text-indent: 10px
-}
+
 
 #question_number {
 	text-decoration: underline;
