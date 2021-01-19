@@ -1,0 +1,149 @@
+body {
+	Font-family: "Times New Roman", serif;
+}
+
+#logo-image {
+	float: none;
+	height: 150px;
+	width: auto;
+}
+
+#welcome_text {
+	text-indent: 10px;
+}
+
+#question_number {
+	text-decoration: underline;
+	text-indent: 10px;
+}
+
+.question_text {
+	font-size: 22px;
+	font-style: bold;
+	color: white;
+	background-color: #0000CC; /* #f11523; 3M Red color code */
+	border: 3px solid black;
+	padding: 5px;
+  	border-radius: 5px 5px 0 0;
+  	display: block;
+
+}
+
+/* Maybe want to look ito this a little more later to make the background & radius fit tightly to the text.
+.question_text span {
+	background-color: #f11523;
+	border: 4px solid black;
+	padding: 10px;
+  	border-radius: 10px 10px 0 0;
+}
+*/
+
+
+#image1 {
+	background-image: url('../img/q1_1front.png');
+	background-repeat: no-repeat;
+	width: auto;
+	height: 400px;
+}
+
+#image1:hover {
+	background-image: url("../img/q1_1back.png");
+	background-repeat: no-repeat;
+	width: auto;
+	height: 400px;
+} 
+
+/* Image 1 (or maybe any image) apparently needs an absolute height in order to give everything on this row dimensions to fill, else everything shows up as flat yellow horizontal lines */
+
+#image2 {
+	background-image: url('../img/q1_2front.png');
+	background-repeat: no-repeat;
+	width: auto;
+	height: auto;
+}
+
+#image2:hover {
+	background-image: url("../img/q1_2back.png");
+	background-repeat: no-repeat;
+	width: auto;
+	height: auto;
+} 
+
+#image3 {
+	background-image: url('../img/q1_3front.png');
+	background-repeat: no-repeat;
+	width: auto;
+	height: auto;
+}
+
+#image3:hover {
+	background-image: url("../img/q1_3back.png");
+	background-repeat: no-repeat;
+	width: auto;
+	height: auto;
+} 
+
+#image4 {
+	background-image: url('../img/q1_4front.png');
+	background-repeat: no-repeat;
+	width: auto;
+	height: auto;
+}
+
+#image4:hover {
+	background-image: url("../img/q1_4back.png");
+	background-repeat: no-repeat;
+	width: auto;
+	height: auto;
+} 
+
+#image5 {
+	background-image: url('../img/q1_5front.png');
+	background-repeat: no-repeat;
+	width: auto;
+	height: auto;
+}
+
+#image5:hover {
+	background-image: url("../img/q1_5back.png");
+	background-repeat: no-repeat;
+	width: auto;
+	height: auto;
+} 
+
+
+.button {
+  background-color: #4CAF50; /* Green */
+  border: 4px hidden;
+  border-radius: 0px 0px 10px 10px;
+  color: white;
+  padding: 12px 140px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 24px;
+  margin: 4px 2px;
+  cursor: pointer;
+  transition-duration: 0.4s;
+  -webkit-transition-duration: 0.4s; /* this line is apparently only for Safari browser */
+}
+
+.button:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+  background-color: blue;
+}
+
+#button_a {
+	text-align: center;
+}
+
+footer {
+	font: Courier; serif;
+	font-style: none;
+	text-transform: capitalize;
+	font-size: 75%;
+}
+
+footer span {
+	background-color: lightgrey;
+}
