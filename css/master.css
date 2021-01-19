@@ -12,6 +12,11 @@ body {
 	text-indent: 10px;
 }
 
+#welcome_subtext {
+	text-indent: 10px;
+	font-size: 18px;
+}
+
 #question_number {
 	text-decoration: underline;
 	text-indent: 10px;
