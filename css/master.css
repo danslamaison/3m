@@ -13,8 +13,7 @@ body {
 }
 
 #welcome_subtext {
-	text-indent: 10px;
-	font-size: 18px;
+	font-size: 19px;
 }
 
 #question_number {
@@ -30,7 +29,7 @@ body {
 	border: 3px solid black;
 	padding: 5px;
   	border-radius: 5px 5px 0 0;
-  	display: block;
+  	display: inline-block;
 
 }
 
@@ -143,7 +142,8 @@ body {
 }
 
 footer {
-	font: Courier; serif;
+	font: Courier; 
+	font-family: monospace;
 	font-style: none;
 	text-transform: capitalize;
 	font-size: 75%;
