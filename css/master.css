@@ -14,14 +14,11 @@ body {
 
 #welcome_subtext {
 	font-size: 19px;
+	text-indent: 10px;
 }
 
 #question_number {
 	text-decoration: underline;
-	text-indent: 10px;
-}
-
-br {
 	text-indent: 10px;
 }
 
