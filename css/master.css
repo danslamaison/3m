@@ -142,9 +142,14 @@ body {
   background-color: blue;
 }
 
+/*
+Look into hiding and revealing text on click with the :active pseudo-class.  Should I make another <tr> between
+the images and the corresponding buttons with hidden text that is revealed upon that button-press?
+
 #button_a {
-	text-align: center;
 }
+
+*/
 
 footer {
 	font: Courier; 
