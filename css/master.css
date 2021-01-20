@@ -4,12 +4,10 @@ body {
 	background-color: white;
 }
 
-
 #logo-image {
 	float: none;
 	height: 150px;
 	width: auto;
-
 }
 
 #welcome_text {
@@ -22,8 +20,6 @@ body {
 	position: relative;
 	left: 10px;
 }
-
-
 
 #question_number {
 	text-decoration: underline;
@@ -39,7 +35,6 @@ body {
 	padding: 5px;
   	border-radius: 5px 5px 0 0;
   	display: inline;
-
 }
 
 /* Maybe want to look ito this a little more later to make the background & radius fit tightly to the text.
@@ -50,7 +45,6 @@ body {
   	border-radius: 10px 10px 0 0;
 }
 */
-
 
 #image1 {
 	background-image: url('../img/q1_1front.png');
@@ -123,7 +117,6 @@ body {
 	width: auto;
 	height: auto;
 } 
-
 
 .button {
   background-color: #4CAF50; /* Green */
