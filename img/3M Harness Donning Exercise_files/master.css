@@ -1,15 +1,11 @@
 body {
-	font-family: "Times New Roman", Times, serif;
-	background-image: url("../img/bluegradient.png");
-	background-color: white;
+	Font-family: "Times New Roman", serif;
 }
-
 
 #logo-image {
 	float: none;
 	height: 150px;
 	width: auto;
-
 }
 
 #welcome_text {
