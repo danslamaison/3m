@@ -1,6 +1,7 @@
 body {
 	font-family: "Times New Roman", Times, serif;
 	background-image: url("../img/bluegradient.png");
+	background-repeat: no-repeat;
 	background-color: white;
 }
 
@@ -117,6 +118,28 @@ body {
 	width: auto;
 	height: auto;
 } 
+
+#response1 {
+	display: none;
+}
+
+.response1:focus + #button_a {display: inline-block;}
+
+#response2 {
+	display: none;
+}
+
+#response3 {
+	display: none;
+}
+
+#response4 {
+	display: none;
+}
+
+#response5 {
+	display: none;
+}
 
 .button {
   background-color: #4CAF50; /* Green */
